@@ -640,7 +640,7 @@ export const GooglePlacesAutocomplete = forwardRef((props, ref) => {
   };
 
   const _onBlur = () => {
-    setListViewDisplayed(false);
+    // setListViewDisplayed(false);
     inputRef?.current?.blur();
   };
 
